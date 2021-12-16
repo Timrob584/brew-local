@@ -2,6 +2,10 @@
   font-family: "Anton", sans-serif;
 }
 
+body {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
 .navbar-nav {
   margin: 0px 20px 0px 20px;
 }

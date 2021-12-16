@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather+Sans&display=swap"
       rel="stylesheet"
     />
     <title>Brew Local</title>
@@ -62,7 +62,27 @@
             alt="compass and map"
           />
         </div>
-        <div></div>
+        <div class="citySearch">
+          <form id="user-form">
+            <label class="form-label" for="city"></label>
+            <input
+              name="cityNameInput"
+              id="cityNameInput"
+              type="text"
+              autofocus="true"
+              class="form-input"
+            />
+          </form>
+          <button
+            type="submit"
+            form="user-form"
+            value="submit"
+            class="btn"
+            id="submitBtn"
+          >
+            Search
+          </button>
+        </div>
       </main>
     </header>
     <script src="assets/script.js"></script>
