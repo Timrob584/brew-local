@@ -10,3 +10,8 @@
 .navbar-brand {
   color: #17a2b8;
 }
+
+#bg-img {
+  height: 70vh;
+  width: 100vw;
+}
