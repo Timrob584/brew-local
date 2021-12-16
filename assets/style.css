@@ -1,0 +1,12 @@
+.navbar-nav {
+  margin: 0px 20px 0px 20px;
+}
+
+#btnId {
+  margin-left: 5px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #17a2b8;
+}
