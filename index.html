@@ -41,7 +41,11 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a
+                  class="nav-link"
+                  href="https://howtostartanllc.com/business-ideas/microbrewery"
+                  >Start a Microbrewery</a
+                >
               </li>
             </ul>
             <form class="d-flex">
@@ -58,42 +62,89 @@
           </div>
         </div>
       </nav>
-      <main>
-        <div>
-          <img
-            src="assets/images/compass-and-world-map.jpg"
-            id="bg-img"
-            alt="compass and map"
+    </header>
+    <main>
+      <div>
+        <img
+          src="assets/images/compass-and-world-map.jpg"
+          id="bg-img"
+          alt="compass and map"
+        />
+      </div>
+      <div class="citySearch">
+        <h2 id="search-header">To Find A Brewery Near You:</h2>
+        <form id="user-form">
+          <label class="form-label" for="city"></label>
+          <input
+            name="cityNameInput"
+            id="cityNameInput"
+            type="text"
+            autofocus="true"
+            placeholder="Name of City"
+            class="form-control me-2"
           />
+        </form>
+        <div>
+          <button
+            type="submit"
+            form="user-form"
+            value="submit"
+            class="btn btn-outline-info"
+            id="submitBtn"
+          >
+            Search
+            <i class="fa fa-search"></i>
+          </button>
         </div>
-        <div class="citySearch">
-          <h2 id="search-header">To Find A Brewery Near You:</h2>
-          <form id="user-form">
-            <label class="form-label" for="city"></label>
-            <input
-              name="cityNameInput"
-              id="cityNameInput"
-              type="text"
-              autofocus="true"
-              placeholder="Name of City"
-              class="form-control me-2"
-            />
-          </form>
+      </div>
+      <div class="third-section">
+        <div class="row">
           <div>
-            <button
-              type="submit"
-              form="user-form"
-              value="submit"
-              class="btn btn-outline-info"
-              id="submitBtn"
-            >
-              Search
-              <i class="fa fa-search"></i>
-            </button>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Starting A Microbrewery</h5>
+                <p class="card-text">
+                  Interested in starting your own microbrewery? Take a look at
+                  these tips to get you started today!
+                </p>
+                <a
+                  href="https://howtostartanllc.com/business-ideas/microbrewery"
+                  class="btn btn-outline-info"
+                  >Start Today</a
+                >
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-outline-info">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-outline-info">Go somewhere</a>
+              </div>
+            </div>
           </div>
         </div>
-      </main>
-    </header>
+      </div>
+    </main>
+    <footer class="footer">
+      <p id="footer-text">©2021 BrewLocal. All Rights Reserved</p>
+    </footer>
     <script src="assets/script.js"></script>
   </body>
 </html>
