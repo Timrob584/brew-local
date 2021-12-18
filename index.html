@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather+Sans&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Brew Local</title>
   </head>
   <body>
@@ -63,6 +67,7 @@
           />
         </div>
         <div class="citySearch">
+          <h2 id="search-header">To Find A Brewery Near You:</h2>
           <form id="user-form">
             <label class="form-label" for="city"></label>
             <input
@@ -70,18 +75,22 @@
               id="cityNameInput"
               type="text"
               autofocus="true"
-              class="form-input"
+              placeholder="Name of City"
+              class="form-control me-2"
             />
           </form>
-          <button
-            type="submit"
-            form="user-form"
-            value="submit"
-            class="btn"
-            id="submitBtn"
-          >
-            Search
-          </button>
+          <div>
+            <button
+              type="submit"
+              form="user-form"
+              value="submit"
+              class="btn btn-outline-info"
+              id="submitBtn"
+            >
+              Search
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
         </div>
       </main>
     </header>
