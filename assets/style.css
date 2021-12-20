@@ -11,7 +11,9 @@
 body {
   font-family: "Merriweather Sans", sans-serif;
   background-image: url(../assets/images/compass-and-world-map.jpg);
-  background-size: 95%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: var(--primaryText);
 }
 
 .navbar-nav {
@@ -102,4 +104,15 @@ body {
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: -80px;
+}
+
+#search-results {
+  width: 75vw;
+  margin-top: 60vh;
+  margin-bottom: 10vh;
+  margin-left: 12vw;
+}
+
+.table {
+  color: var(--primaryText);
 }
