@@ -80,6 +80,10 @@ body {
   width: 100%;
 }
 
+#footer-text {
+  margin-top: 10px;
+}
+
 .card-group {
   float: right;
   width: 20vw;

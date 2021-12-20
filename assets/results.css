@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: url(../assets/images/compass-and-world-map.jpg);
+  font-family: "Merriweather Sans", sans-serif;
+  background-image: url(../assets/images/brewery.jpg);
   background-size: 100%;
 }
 
@@ -30,8 +31,13 @@ body {
   color: var(--primaryText);
 }
 
-.result-card {
+#search-results {
   width: 50vw;
   margin: 0 auto;
-  margin-top: 30vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.table {
+  color: var(--primaryText);
 }
